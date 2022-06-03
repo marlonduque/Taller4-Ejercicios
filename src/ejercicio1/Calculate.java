@@ -10,7 +10,7 @@ public class Calculate {
 
 
     /**
-     * 
+     *
      * @param planet1
      * @param planet2
      * @return
