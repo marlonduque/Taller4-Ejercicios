@@ -12,7 +12,7 @@ import java.util.Random;
          * Array
          */
         Random random = new Random();
-        int[] numbers = new int[8];
+        int[] numbers = new int[10];
 
         /**
          * Random
@@ -39,7 +39,7 @@ import java.util.Random;
                  }
              }
          }
-        System.out.println("\n organized");
+        System.out.println("\n  bubble organized");
         printArray(numbers);
 
     }
