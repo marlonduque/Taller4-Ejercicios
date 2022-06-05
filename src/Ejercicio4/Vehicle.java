@@ -9,18 +9,31 @@ public class Vehicle {
     private int wheels;
     private String transport;
 
+
     /**
-     *Constructor
+     *
      * @param vehicle
      * @param passengerCapacity
      * @param numberPassengers
      * @param licenseRegistration
      * @param wheels
-     * @param overland
+     * @param transport
+     */
+    public Vehicle(String vehicle, int passengerCapacity, int numberPassengers, int licenseRegistration, int wheels, String transport) {
+        this.vehicle = vehicle;
+        this.passengerCapacity = passengerCapacity;
+        this.numberPassengers = numberPassengers;
+        this.licenseRegistration = licenseRegistration;
+        this.wheels = wheels;
+        this.transport = transport;
+    }
+
+    /**
+     *
+     * @return
      */
 
-    public Vehicle(String vehicle, int passengerCapacity, int numberPassengers, int licenseRegistration, int wheels, String overland) {
-    }
+
 
 
     public String getVehicle() {

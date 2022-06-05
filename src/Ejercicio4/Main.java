@@ -41,7 +41,7 @@ public class Main {
          */
 
         for(int i = 0; i < vehicleList.size(); i++) {
-        System.out.println("ingrese vehiculo: " + vehicle1);
+            System.out.println("ingrese vehiculo: " + vehicle1);
 
         }
 
