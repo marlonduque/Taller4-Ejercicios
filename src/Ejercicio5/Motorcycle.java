@@ -1,11 +1,30 @@
 package Ejercicio5;
 
 
-public class Motorcycle extends Vehicle {
+      public class Motorcycle extends Vehicle {
 
-    String motorcycleHeight;
+    /**
+     * @autor Marlon
+     */
+    private String motorcycleHeight;
 
-    public void liftOnWheel() {
+          /**
+           *
+           * @return
+           */
+             public String getMotorcycleHeight() {
+              return motorcycleHeight;
+             }
+
+            public void setMotorcycleHeight(String motorcycleHeight) {
+                 this.motorcycleHeight = motorcycleHeight;
+            }
+
+          /**
+           * method
+           */
+          public void liftOnWheel() {
+
         System.out.println("Lift on a wheel");
     }
 

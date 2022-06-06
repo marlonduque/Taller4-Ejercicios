@@ -11,7 +11,10 @@ public class Main {
         Bicycle bicycle = new Bicycle();
 
         //ingresa el parametro que deseas observar
+        // Enter the parameter you wish to observe
 
-        truck.conditions();
+          motorcycle.liftOnWheel();
+          
     }
+
 }

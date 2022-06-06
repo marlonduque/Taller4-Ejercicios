@@ -3,7 +3,7 @@ package Ejercicio5;
 public class Vehicle {
 
     private String make;
-    private int passengers;
+    private String passengers;
     private String color;
 
     void Accelerate() {
@@ -17,6 +17,14 @@ public class Vehicle {
         System.out.println("Brake");
     }
 
+
+    /**
+     *
+     * @return
+     */
+
+
+
     public String getMake() {
         return make;
     }
@@ -25,11 +33,11 @@ public class Vehicle {
         this.make = make;
     }
 
-    public int getPassengers() {
+    public String getPassengers() {
         return passengers;
     }
 
-    public void setPassengers(int passengers) {
+    public void setPassengers(String passengers) {
         this.passengers = passengers;
     }
 
@@ -40,6 +48,13 @@ public class Vehicle {
     public void setColor(String color) {
         this.color = color;
     }
+
+    /**
+     *
+     * @return
+     */
+
+
 
     @Override
     public String toString() {

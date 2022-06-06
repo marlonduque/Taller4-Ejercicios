@@ -1,9 +1,13 @@
 package Ejercicio5;
 
-
     public class Car extends Vehicle {
 
-        public  boolean airCond;
+        private boolean airCond;
+
+        /**
+         * @return Get -Set
+         */
+
 
         public boolean isAirCond() {
             return airCond;
@@ -13,15 +17,20 @@ package Ejercicio5;
             this.airCond = airCond;
         }
 
-        /* public  boolean airCond(){
+
+            public void airCond() {
+
+            airCond = (true);
 
 
             if(airCond) {
                 System.out.println("Turn on Air Conditionador");
             } else {
-                System.out.println("Apagado");
+                System.out.println("Shutdown");
             }
 
-        } */
-
     }
+}
+
+
+
