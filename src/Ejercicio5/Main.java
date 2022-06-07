@@ -13,8 +13,21 @@ public class Main {
         //ingresa el parametro que deseas observar
         // Enter the parameter you wish to observe
 
-          motorcycle.liftOnWheel();
-          
+         car.setAirCond(true); // true -false
+         car.airCond();
+         bicycle.modificationsAvailable();
+         boat.setEngineRunning(false);  //true - false
+         boat.engineRunning();
+         motorcycle.motoCross();
+         truck.setPermittedLoad(true); //true - false
+         truck.permittedLoad();
+
+
+
+
+
+
+
     }
 
 }

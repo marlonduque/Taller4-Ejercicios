@@ -7,6 +7,7 @@ package Ejercicio5;
       /**
        * @return
        */
+
       public boolean isPermittedLoad() {
           return permittedLoad;
       }
@@ -20,7 +21,6 @@ package Ejercicio5;
        */
       public void permittedLoad() {
 
-          permittedLoad = (false);
 
           if (permittedLoad) {
               System.out.println("You are authorized to travel on roads and bridges");

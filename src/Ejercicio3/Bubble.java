@@ -30,7 +30,9 @@ import java.util.Random;
          boolean swappedSomething = true;
 
          while (swappedSomething) {
+
              swappedSomething = false;
+
              for (int i = 0; i < numbers.length - 1; i++) {
                  if (numbers[i] > numbers[i + 1]) {
                      swappedSomething = true;

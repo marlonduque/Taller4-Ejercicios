@@ -17,10 +17,11 @@ package Ejercicio5;
             this.airCond = airCond;
         }
 
+        /**
+         *
+         */
 
             public void airCond() {
-
-            airCond = (true);
 
 
             if(airCond) {

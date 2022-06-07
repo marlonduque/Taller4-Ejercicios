@@ -1,6 +1,6 @@
 package Ejercicio5;
 
-public class Vehicle {
+public abstract class Vehicle {
 
     private String make;
     private String passengers;

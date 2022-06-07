@@ -23,9 +23,9 @@ package Ejercicio5;
           /**
            * method
            */
-          public void liftOnWheel() {
+          public void motoCross() {
 
-        System.out.println("Lift on a wheel");
+        System.out.println("The motorcycle practices acrobatics and jumps on asphalt");
     }
 
 }
