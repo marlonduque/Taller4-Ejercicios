@@ -5,17 +5,25 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * @autor 
+ * @autor
  */
   public class NumVector {
 
-        public boolean flag = true;
+
+    /**
+     * Method create list
+     */
+    public boolean flag = true;
         public ArrayList<Integer> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
 
        public Integer previous = 0;
        public Integer after = 100;
 
+    /**
+     * Conditionals  the user enters the numbers and they are saved.
+     * then compare that they are not repeated to close the cycle.
+     */
        public void run() {
 
            while(flag) {
